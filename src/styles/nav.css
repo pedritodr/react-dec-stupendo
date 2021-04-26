@@ -140,5 +140,12 @@
     }
     .get-started {
         padding: 12px 12px !important;
+        background: #29B383;
+        color: #fff !important;
+        cursor: pointer;
+        border-radius: 50px;
+        margin: 0 15px;
+        font-family: "MYRIADPRO", sans-serif;
+        text-decoration: none;
     }
 }

@@ -53,6 +53,20 @@
     top: 8.5px;
 }
 
+#plans-header .download-btn2 {
+    font-family: "MYRIADPRO", sans-serif;
+    background: #3D4975;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 50px;
+    margin: 0 15px;
+    padding: 13px 66px;
+}
+
+#plans-header .download-btn2:hover {
+    background: #29B383;
+}
+
 #plans-header .download-btn+.download-btn {
     margin-left: 20px;
 }
@@ -122,23 +136,7 @@
 #plans-header .button-1 {
     background: #fff;
     color: #1CB381;
-    cursor: pointer;
-    float: left;
-    font-family: "MYRIADPRO", sans-serif;
-    width: 30%;
-    margin: 0px;
-    padding: 9px;
-    text-align: center;
-    border: 1.5px solid #1CB381;
-    border-radius: 50px 0px 0px 50px;
-    -moz-border-radius: 50px 0px 0px 50px;
-    -webkit-border-radius: 50px 0px 0px 50px;
-}
-
-#plans-header .button-2 {
-    background: #fff;
-    color: #1CB381;
-    cursor: pointer;
+    cursor: no-drop;
     float: left;
     font-family: "MYRIADPRO", sans-serif;
     width: 30%;
@@ -147,6 +145,26 @@
     text-align: center;
     border-top: 1.5px solid #1CB381;
     border-bottom: 1.5px solid #1CB381;
+    border-left: 1.5px solid #1CB381;
+    border-radius: 50px 0px 0px 50px;
+    -moz-border-radius: 50px 0px 0px 50px;
+    -webkit-border-radius: 50px 0px 0px 50px;
+}
+
+#plans-header .button-2 {
+    background: #fff;
+    color: #1CB381;
+    cursor: no-drop;
+    float: left;
+    font-family: "MYRIADPRO", sans-serif;
+    width: 30%;
+    margin: 0px;
+    padding: 9px;
+    text-align: center;
+    border-top: 1.5px solid #1CB381;
+    border-bottom: 1.5px solid #1CB381;
+    border-right: 1.5px solid #1CB381;
+    border-left: 1.5px solid #1CB381;
 }
 
 #plans-header .button-3 {
@@ -159,7 +177,9 @@
     margin: 0px;
     padding: 9px;
     text-align: center;
-    border: 1.5px solid #1CB381;
+    border-top: 1.5px solid #1CB381;
+    border-bottom: 1.5px solid #1CB381;
+    border-right: 1.5px solid #1CB381;
     border-radius: 0px 50px 50px 0px;
     -moz-border-radius: 0px 50px 50px 0px;
     -webkit-border-radius: 0px 50px 50px 0px;
@@ -175,7 +195,9 @@
     margin: 0px;
     padding: 9px;
     text-align: center;
-    border: 1.5px solid #1CB381;
+    border-top: 1.5px solid #1CB381;
+    border-bottom: 1.5px solid #1CB381;
+    border-left: 1.5px solid #1CB381;
     border-radius: 50px 0px 0px 50px;
     -moz-border-radius: 50px 0px 0px 50px;
     -webkit-border-radius: 50px 0px 0px 50px;
