@@ -1,0 +1,484 @@
+/*--------------------------------------------------------------
+  # Hero Section
+  --------------------------------------------------------------*/
+
+#section-1 {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    padding: 0px 0 100px 0;
+    margin-bottom: 75px;
+}
+
+#section-1 .body-container {
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+#section-1 .body-container-image {
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+#section-1 .body-container-image img {
+    width: 60%;
+}
+
+#section-1 .text-container {
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+#section-1 .text-xs {
+    display: none;
+}
+
+#section-1 .text-lg {
+    display: block;
+}
+
+#section-1 h1 {
+    margin: 0 0 10px 0;
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 35px;
+    color: #3E4A74;
+    font-family: "MYRIADPRO", sans-serif;
+}
+
+#section-1 h2 {
+    color: #29B383;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+#section-1 p {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #3E4A74;
+    font-family: "MYRIADPROREGULAR", sans-serif;
+}
+
+#section-1 .sub-text {
+    margin-left: 1rem!important;
+}
+
+#section-1 .download-btn {
+    font-family: "MYRIADPRO", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    display: inline-block;
+    padding: 8px 24px 10px 46px;
+    border-radius: 3px;
+    transition: 0.5s;
+    color: #fff;
+    background: #29B383;
+    position: relative;
+}
+
+#section-1 .download-btn:hover {
+    background: #5777ba;
+}
+
+#section-1 .download-btn i {
+    font-size: 20px;
+    position: absolute;
+    left: 18px;
+    top: 8.5px;
+}
+
+#section-1 .download-btn+.download-btn {
+    margin-left: 20px;
+}
+
+#section-1 a {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+@media (max-width: 991px) {
+    #hero {
+        text-align: center;
+    }
+    #hero .download-btn+.download-btn {
+        margin: 0 10px;
+    }
+    #hero .hero-img {
+        text-align: center;
+    }
+    #hero .hero-img img {
+        width: 60%;
+    }
+}
+
+@media (max-width: 768px) {
+    #hero h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    #hero h2 {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+    #hero .hero-img img {
+        width: 70%;
+    }
+}
+
+.get-started-btn {
+    background: #29B383;
+    color: #fff;
+    border-radius: 50px;
+    margin: 0 15px;
+    padding: 10px 25px;
+}
+
+#hero .btn-get-started {
+    font-family: "MYRIADPRO", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 1px 66px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #fff;
+    background: #29B383;
+}
+
+
+/*--------------------------------------------------------------
+  #  Section 2
+  --------------------------------------------------------------*/
+
+#dec {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    padding: 0px 0 100px 0;
+    /*     margin-bottom: -75px; */
+}
+
+#dec .body-container {
+    background-image: url("../assets/img/section-carousel/Recurso-dec-footer.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#dec h1 {
+    margin: 0 0 10px 0;
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 56px;
+    color: #3E4A74;
+    font-family: "MYRIADPRO", sans-serif;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#dec h2 {
+    color: #29B383;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+#dec .box p {
+    color: #3E4A74;
+    margin-bottom: 10px;
+    margin-top: 32px;
+    font-size: 16px;
+    text-align: left;
+}
+
+#dec .box img {
+    margin-top: 20px;
+}
+
+#dec .title-footer {
+    font-size: 40px !important;
+    margin-bottom: 0px !important;
+    margin-top: -18px !important;
+}
+
+#dec .box {
+    color: #3E4A74;
+    background: #F6F6F6;
+    width: 340px;
+    height: 280px;
+    margin: 10px;
+    padding: 5px 45px 17px 45px;
+    border: 1px solid #F6F6F6;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+}
+
+#dec .box .text-box {
+    color: #3E4A74;
+    margin-bottom: 10px;
+    margin-top: 32px;
+    font-size: 16px;
+    text-align: left;
+}
+
+#dec .box img {
+    width: 60%;
+}
+
+#dec .box-2 {
+    color: #3E4A74;
+    background: #F6F6F6;
+    width: 340px;
+    height: 245px;
+    margin: 10px;
+    padding: 5px 45px 17px 45px;
+    border: 1px solid #F6F6F6;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    position: absolute;
+    top: -10px;
+}
+
+#dec .box-2 img {
+    width: 60%;
+}
+
+#dec .btn-get-started {
+    font-family: "MYRIADPRO", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 1px 66px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #fff;
+    background: #29B383;
+    cursor: pointer;
+}
+
+#dec .btn-get-started:hover {
+    background: #3E4A74;
+}
+
+#dec a {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+
+/*--------------------------------------------------------------
+  #  carousel
+  --------------------------------------------------------------*/
+
+#carousel {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    padding: 0px 0 0px 0;
+    margin-top: -9%;
+    margin-bottom: 71px;
+}
+
+#carousel .body-container {
+    background-image: url("../assets/img/section-carousel/backgraund-carouse.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 120px;
+    padding-top: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#carousel h1 {
+    margin: 0 0 10px 0;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 56px;
+    color: #3E4A74;
+    font-family: "MYRIADPRO", sans-serif;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#carousel h2 {
+    color: #29B383;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+#carousel p {
+    color: #3E4A74;
+    margin-bottom: 15px;
+    font-size: 21px;
+}
+
+#carousel .btn-get-started {
+    font-family: "MYRIADPRO", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 1px 66px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #fff;
+    background: #29B383;
+    cursor: pointer;
+}
+
+#carousel a {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.title {
+    margin-bottom: 20px;
+    padding: 20px
+}
+
+.img {
+    height: 260px;
+    width: 100%
+}
+
+.owl-prev,
+.owl-next {
+    position: absolute;
+}
+
+.owl-prev {
+    left: -26px;
+    top: 275px;
+}
+
+.owl-next {
+    right: -26px;
+    top: 275px;
+}
+
+.owl-theme .owl-nav [class*='owl-']:hover {
+    background: none !important;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #32b688 !important;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    width: 15px !important;
+    height: 15px !important;
+    background: #34c18b96 !important;
+}
+
+.owl-theme .owl-dots {
+    top: -45px;
+    position: relative;
+}
+
+@media (max-width: 575px) {
+    #hero .hero-img img {
+        width: 80%;
+    }
+    #section-1 .body-container {
+        padding-bottom: 3rem;
+        padding-top: 3rem;
+        background-image: url("../assets/img/section-carousel/arrow-backgraund-mobil.png");
+        background-color: transparent;
+        background-repeat: no-repeat;
+        background-size: 374px;
+        z-index: -1000;
+    }
+    #section-1 .text-container {
+        padding-bottom: 3rem;
+        padding-top: 0rem;
+        position: relative;
+        top: -23px;
+    }
+    #section-1 h1 {
+        font-size: 30px;
+        line-height: 28px;
+    }
+    #section-1 .text-xs {
+        display: block;
+    }
+    #section-1 .text-lg {
+        display: none;
+    }
+    #section-1 .sub-text {
+        margin-left: 0.25rem!important;
+    }
+    #section-1 .body-container-image {
+        padding-bottom: 0.25rem;
+        padding-top: 0rem;
+        top: -106px
+    }
+    #section-1 .body-container-image img {
+        width: 70%;
+    }
+    #section-1 {
+        margin-bottom: -110px;
+    }
+    #carousel h1 {
+        font-size: 34px;
+        line-height: 50px;
+        text-align: left;
+    }
+    .owl-theme .owl-nav {
+        display: none;
+    }
+    #carousel .body-container {
+        background-image: url("../assets/img/section-carousel/backgraund-carousel-mobil.png");
+        background-position: bottom;
+        background-size: contain;
+        padding-bottom: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #dec h1 {
+        font-size: 35px;
+        line-height: 47px;
+        text-align: left;
+    }
+    #dec .box {
+        height: 187px;
+        padding: 5px 10px 17px 10px;
+    }
+    #dec .box img {
+        width: 100%;
+    }
+    #dec .box-2 {
+        height: 187px;
+        padding: 5px 10px 17px 10px;
+        position: relative;
+        top: 0;
+    }
+    #dec .box-2 img {
+        width: 100%;
+    }
+    #dec .box .text-box {
+        margin-bottom: 1px;
+        margin-top: 1px;
+        font-size: 16px;
+        text-align: left;
+    }
+    #dec .body-container {
+        background-image: url("../assets/img/section-carousel/Recurso-dec-footer.png");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #dec .title-footer {
+        font-size: 32px !important;
+    }
+    #dec .btn-get-started {
+        font-size: 26px;
+        padding: 5px 47px;
+    }
+}

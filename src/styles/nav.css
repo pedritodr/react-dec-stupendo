@@ -1,0 +1,144 @@
+.navbar-brand img {
+    text-align: left !important;
+}
+
+.logo-stupendo {
+    width: 100%;
+}
+
+.body-container-dropdown {
+    display: none;
+    position: absolute;
+    right: -12px;
+    top: 27px;
+}
+
+.arrow-btn {
+    cursor: pointer;
+    color: #3D4975;
+}
+
+#collapseMenu {
+    position: absolute;
+    top: 100%;
+    color: #3E4A74;
+    background: #fff;
+    background-clip: padding-box;
+    width: 340px;
+    float: left;
+    height: 280px;
+    margin: -7px 6px;
+    padding: 25px 45px 17px 45px;
+    background-clip: padding-box;
+    border-top: 1px solid #f7f8f9;
+    border-bottom: 1px solid #3E4A74;
+    border-radius: 0px 0px 10px 10px;
+    -moz-border-radius: 0px 0px 10px 10px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+    -webkit-box-shadow: 0px 7px 16px 0px rgba(62, 74, 116, 1);
+    -moz-box-shadow: 0px 7px 16px 0px rgba(62, 74, 116, 1);
+    box-shadow: 0px 7px 16px 0px rgba(62, 74, 116, 1);
+    z-index: 1000;
+}
+
+#collapseMenu .page-inactive a {
+    color: #3E4A74;
+    font-family: "MYRIADPROREGULAR", sans-serif;
+    font-size: 24px;
+    line-height: 45px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.body-container-dropdowm-text a {
+    color: #3E4A74;
+    font-family: "MYRIADPROREGULAR", sans-serif;
+    font-size: 16px;
+    line-height: 37px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.body-container-dropdowm-text a:hover {
+    color: #29B383;
+}
+
+#collapseMenu .page-active a {
+    color: #29B383;
+    font-family: "MYRIADPROREGULAR", sans-serif;
+    font-size: 24px;
+    line-height: 45px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#collasible-nav-dropdown .nav-item a {
+    color: #3b4b73;
+    font-weight: 450;
+}
+
+.navbar-dec {
+    -webkit-box-shadow: 0px 10px 10px -5px rgba(62, 74, 116, 1);
+    -moz-box-shadow: 0px 10px 10px -5px rgba(62, 74, 116, 1);
+    box-shadow: 0px 10px 10px -5px rgba(62, 74, 116, 1);
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #29B383 !important;
+}
+
+.get-started a {
+    background: #29B383;
+    color: #fff !important;
+    cursor: pointer;
+    border-radius: 50px;
+    margin: 0 15px;
+    padding: 12px 21px !important;
+    font-family: "MYRIADPRO", sans-serif;
+    text-decoration: none;
+}
+
+.get-started a:hover {
+    background: #3E4A74 !important;
+    color: #fff !important;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+    color: #16181b;
+    text-decoration: none;
+    background-color: transparent !important;
+}
+
+.dropdown-item {
+    text-decoration: none !important;
+    background-color: transparent !important;
+}
+
+.dropdown-item .text-dropdown-header {
+    color: #bfbfbf !important;
+    font-size: 12px;
+    font-family: "MYRIADPROREGULAR", sans-serif;
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+
+@media (max-width: 575px) {
+    .navbar-light .navbar-toggler {
+        display: none !important;
+    }
+    #body-collapse {
+        display: none;
+    }
+    .logo-stupendo {
+        text-align: center !important;
+        padding-left: 104px;
+    }
+    .body-container-dropdown {
+        display: block;
+    }
+    .get-started {
+        padding: 12px 12px !important;
+    }
+}
