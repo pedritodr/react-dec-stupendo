@@ -19,7 +19,7 @@ export const SectionPlansHeader = () => {
           </Col>
 
             <Col lg={{ span: 4, offset: 4 }} className="mt-5">
-            <div className="text-center text-lg-center">
+            <div className="text-center">
                   <a className="download-btn2">Anual</a>
                 </div>
            {/*   Botones ocultos<div className="button-4">Mensual</div><div className="button-5">Anual</div>*/}
