@@ -48,7 +48,7 @@ export const SectionsDigital = () => {
                 </p>
               </div>
                 </Col>
-            <div>
+            <div className="arrow-top-xs">
             <Image className="arrow-top-img" src={arrowTop} fluid/>
             </div>
               </Row>

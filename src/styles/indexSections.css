@@ -186,6 +186,10 @@
     #section-2 .container-arrow {
         display: block;
     }
+    
+    #section-2 .arrow-top-xs {
+        display: none;
+    }
     /*--------------------------------------------------------------
   #  Section 3
   --------------------------------------------------------------*/
@@ -422,6 +426,9 @@
         #section-2 .body-container-text {
             padding-left: 1px;
             padding-right: 1px;
+        }
+        #section-2 .arrow-top-xs {
+            display: block;
         }
         #section-3 {
             margin-top: -41%;
