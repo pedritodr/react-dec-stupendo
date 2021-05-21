@@ -16,7 +16,7 @@ footer p {
 footer a {
     color: #fff !important;
     font-size: 18px;
-    text-decoration: underline !important;
+    text-decoration: none !important;
 }
 
 .body-footer {

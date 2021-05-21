@@ -2,10 +2,10 @@ import React from "react";
 
 import {
   BrowserRouter as Router,
-  Switch,
-  Route,
   Link,
   NavLink,
+  Route,
+  Switch,
 } from "react-router-dom";
 
 import { IndexNavbar } from "../components/Navbars/IndexNavbar";
@@ -16,6 +16,7 @@ import { Plans } from "../views/Plans";
 import { Sign } from "../views/Sign";
 
 export const AppRouter = () => {
+
   return (
     <Router>
       <IndexNavbar />

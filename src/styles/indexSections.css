@@ -2,6 +2,86 @@
   # Hero Section
   --------------------------------------------------------------*/
     
+    .mt-1 {
+        margin-top: 1rem;
+    }
+    
+    .mt-2 {
+        margin-top: 2rem;
+    }
+    
+    .mt-3 {
+        margin-top: 3rem;
+    }
+    
+    .mt-4 {
+        margin-top: 4rem;
+    }
+    
+    .mt-5 {
+        margin-top: 5rem;
+    }
+    
+    .mt-6 {
+        margin-top: 6rem;
+    }
+    
+    .mt-7 {
+        margin-top: 7rem;
+    }
+    
+    .mt-8 {
+        margin-top: 8rem;
+    }
+    
+    .mt-9 {
+        margin-top: 9rem;
+    }
+    
+    .mt-10 {
+        margin-top: 10rem;
+    }
+    
+    .mb-1 {
+        margin-bottom: 1rem;
+    }
+    
+    .mb-2 {
+        margin-bottom: 2rem;
+    }
+    
+    .mb-3 {
+        margin-bottom: 3rem;
+    }
+    
+    .mb-4 {
+        margin-bottom: 4rem;
+    }
+    
+    .mb-5 {
+        margin-bottom: 5rem;
+    }
+    
+    .mb-6 {
+        margin-bottom: 6rem;
+    }
+    
+    .mb-7 {
+        margin-bottom: 7rem;
+    }
+    
+    .mb-8 {
+        margin-bottom: 8rem;
+    }
+    
+    .mb-9 {
+        margin-bottom: 9rem;
+    }
+    
+    .mb-10 {
+        margin-bottom: 10rem;
+    }
+    
     #hero {
         width: 100%;
         position: relative;
@@ -164,14 +244,15 @@
     }
     
     #section-2 img {
-        width: 40%;
+        width: 73%;
     }
     
     #section-2 .arrow-top-img {
         width: 174px;
         position: absolute;
-        right: -32px;
-        height: 514px;
+        right: -35px;
+        height: 251px;
+        top: -30px;
     }
     
     #section-2 .body-container-text {
@@ -217,8 +298,7 @@
         color: #3E4A74;
         font-family: "MYRIADPRO", sans-serif;
         margin-bottom: 30px;
-        padding-left: 132px;
-        padding-right: 256px;
+        padding-left: 100px;
         text-align: left;
         margin-left: 25px;
     }
@@ -233,8 +313,7 @@
         color: #3E4A74;
         margin-bottom: 15px;
         font-size: 18px;
-        padding-left: 132px;
-        padding-right: 256px;
+        padding-left: 100px;
         text-align: left;
         margin-left: 25px;
     }
@@ -254,7 +333,8 @@
         width: 100%;
         position: relative;
         overflow: hidden;
-        padding: 0px 0 100px 0;
+        padding: 0px 0 0 0;
+        margin-bottom: 100px;
         /*     margin-bottom: -75px; */
     }
     
@@ -280,7 +360,7 @@
         font-size: 18px;
     }
     
-    #section-4 .body-container-text {
+    >#section-4 .body-container-text {
         padding-right: 29%;
     }
     
@@ -313,18 +393,75 @@
         margin-bottom: -5px;
     }
     
-    #section-5 .body-container {
-        background-image: url("../assets/img/section-portafolio/bacgraound-2.png");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+    @media (max-width: 575px) {
+        #section-5 .body-container {
+            background-image: url("../assets/img/section-portafolio/backgraund-fotter-mobil.png");
+            background-repeat: no-repeat;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            margin-top: 25px;
+        }
+    }
+    /* Breakpoint SM */
+    
+    @media (min-width: 576px) and (max-width: 767px) {
+        #section-5 .body-container {
+            background-image: url("../assets/img/section-portafolio/backgraund-fotter-mobil.png");
+            background-repeat: no-repeat;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            margin-top: 25px;
+        }
+    }
+    /* Breakpoint MD */
+    
+    @media (min-width: 768px) and (max-width: 991px) {
+        #section-5 .body-container {
+            background-image: url("../assets/img/section-portafolio/bacgraound-2.png");
+            background-repeat: no-repeat;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            margin-top: 25px;
+        }
+    }
+    /* Breakpoint LG */
+    
+    @media (min-width: 992px) and (max-width: 1199px) {
+        #section-5 .body-container {
+            background-image: url("../assets/img/section-portafolio/bacgraound-2.png");
+            background-repeat: no-repeat;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            margin-top: 25px;
+        }
+    }
+    /* Breakpoint XL */
+    
+    @media (min-width: 1200px) {
+        #section-5 .body-container {
+            background-image: url("../assets/img/section-portafolio/bacgraound-2.png");
+            background-repeat: no-repeat;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            margin-top: 25px;
+        }
     }
     
     #section-5 .body-container-footer {
         background-image: url("../assets/img/section-portafolio/Recurso-footer.png");
         background-position: center;
         background-repeat: no-repeat;
-        margin-top: 40px;
+        margin-top: 150px;
     }
     
     #section-5 .body-container-text {
@@ -372,7 +509,7 @@
         font-size: 30px;
         letter-spacing: 1px;
         display: inline-block;
-        padding: 1px 66px;
+        padding: 1px 20px;
         border-radius: 50px;
         transition: 0.5s;
         color: #fff;
@@ -505,7 +642,7 @@
         #section-5 .body-container {
             background-image: url("../assets/img/section-portafolio/backgraund-fotter-mobil.png");
             background-repeat: no-repeat;
-            background-size: cover;
+            background-size: contain;
         }
         #section-5 .body-container-footer {
             background-size: contain;

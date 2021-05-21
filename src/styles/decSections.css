@@ -353,13 +353,13 @@
 }
 
 .owl-prev {
-    left: -26px;
-    top: 275px;
+    top: 43%;
+    left: -45px;
 }
 
 .owl-next {
-    right: -26px;
-    top: 275px;
+    top: 43%;
+    right: -45px;
 }
 
 .owl-theme .owl-nav [class*='owl-']:hover {

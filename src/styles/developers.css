@@ -161,7 +161,7 @@
     padding: 8px 0 0px 0;
     margin-bottom: -75px;
     position: relative;
-    top: -48px;
+    top: -100px;
 }
 
 #dev-box .dev {
@@ -322,7 +322,7 @@
     margin: 0 0 10px 0;
     font-size: 40px;
     font-weight: 500;
-    line-height: 35px;
+    line-height: 1;
     color: #3E4A74;
     font-family: "MYRIADPRO", sans-serif;
 }
@@ -335,11 +335,11 @@
 }
 
 #dev-create p {
-    color: #000;
+    color: #3E4A74;
     margin-bottom: 10px;
-    font-size: 16px;
+    font-size: 22px;
     font-weight: normal;
-    line-height: 20px;
+    line-height: 1.4;
     font-family: "MYRIADPROREGULAR", sans-serif;
 }
 
@@ -352,19 +352,15 @@
     background: #29B383;
     color: #fff;
     border-radius: 50px;
-    font-size: 24px;
+    font-size: 34px;
     margin: 0 15px;
-    padding: 10px 25px;
+    padding: 20px 30px 15px 30px;
     font-family: "MYRIADPRO", sans-serif;
 }
 
 #dev-create a {
     text-decoration: none;
     background-color: transparent;
-}
-
-#dev-create .body-left {
-    padding: 5px 140px;
 }
 
 #dev-create .container-icons {
