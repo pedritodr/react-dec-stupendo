@@ -132,7 +132,8 @@ export const IndexNavbar = () => {
             >
               {!open ? <FaAngleDown /> : <FaAngleUp />}
             </a>
-            <a
+            <Link
+              to={process.env.REACT_APP_BTN_COMIENZA_GRATIS}
               style={{
                 background: "#29B383",
                 color: "#ffffff",
@@ -145,7 +146,7 @@ export const IndexNavbar = () => {
               }}
             >
               Comienza Gratis
-            </a>
+            </Link>
           </div>
           : <Navbar.Toggle aria-controls="responsive-navbar-nav" />}
         <Navbar.Collapse id="responsive-navbar-nav">
@@ -192,7 +193,7 @@ export const IndexNavbar = () => {
           </Nav>
           <Nav>
             <div className="get-started">
-              <Link to="/">Comienza Gratis</Link>
+              <Link to={process.env.REACT_APP_BTN_COMIENZA_GRATIS}>Comienza Gratis</Link>
             </div>
           </Nav>
         </Navbar.Collapse>
@@ -205,9 +206,9 @@ export const IndexNavbar = () => {
           >
             {!open ? <FaAngleDown /> : <FaAngleUp />}
           </a>
-          <a className="get-started">
+          <Link to={process.env.REACT_APP_BTN_COMIENZA_GRATIS} className="get-started">
             Comienza Gratis
-          </a>
+          </Link>
         </div>
         <Collapse in={open}>
           <div id="collapseMenu">

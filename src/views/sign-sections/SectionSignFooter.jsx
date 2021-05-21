@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
 import { LightSpeed } from "react-reveal";
-
+import {Link} from "react-router-dom";
 import imagenLeft from "../../assets/img/section-sign/sing-footer-left.png";
 import signFooter from "../../assets/img/section-sign/easy-sing-footer.png";
 import backgroundText from "../../assets/img/section-sign/stars.png";
@@ -42,6 +42,7 @@ export const SectionSignFooter = () => {
       background: "#29B383",
       cursor: "pointer",
       marginTop: "30px",
+      textDecoration: 'none'
     },
   };
 
@@ -154,9 +155,9 @@ export const SectionSignFooter = () => {
                     </h1>
                   </div>
                   <div className="text-center text-lg-center body-btn">
-                    <a className="btn-get-started" style={styles.buttonFooter}>
+                    <Link to={process.env.REACT_APP_BTN_PRUEBA_DEC} className="btn-get-started" style={styles.buttonFooter}>
                       Prueba Dec
-                    </a>
+                    </Link>
                   </div>
                 </LightSpeed>
               </div>

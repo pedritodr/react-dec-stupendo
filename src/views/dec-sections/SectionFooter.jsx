@@ -1,5 +1,6 @@
 import React from "react";
 import { Bounce, LightSpeed } from "react-reveal";
+import {Link} from "react-router-dom";
 import SvgBag from "../../components/SvgSectionDec/SvgBag";
 import SvgPadLock from "../../components/SvgSectionDec/SvgPadLock";
 import SvgCloud from "../../components/SvgSectionDec/SvgCloud";
@@ -131,6 +132,7 @@ export const SectionFooter = () => {
       background: "#29B383",
       cursor: "pointer",
       marginTop: width < breakpoint ? "5px" : "10px",
+      textDecoration: 'none'
     },
     backgroundInReady: {
       backgroundImage: `url(${backgraundFooter})`,
@@ -361,7 +363,7 @@ export const SectionFooter = () => {
           </div>
           <div className="row text-center">
             <div className="col-lg-12 col-md-12 col-sm-12 mb-10">
-              <a style={styles.buttonStarted}>Comienza Gratis</a>
+              <Link to={process.env.REACT_APP_BTN_COMIENZA_GRATIS} style={styles.buttonStarted}>Comienza Gratis</Link>
             </div>
           </div>
         </div>}

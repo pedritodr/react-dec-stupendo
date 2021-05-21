@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
 import { LightSpeed } from "react-reveal";
+import {Link} from "react-router-dom";
 import imagenRight from "../../assets/img/section-developer/Recurso-code.png";
 import icon1 from "../../assets/img/section-developer/Recurso5.png";
 import icon2 from "../../assets/img/section-developer/Recurso6.png";
@@ -88,8 +89,9 @@ export const SectionDevCreate = () => {
                         ? "col-lg-12 text-left mt-4 mb-4"
                         : "col-lg-12 text-left mt-5"}
                     >
-                      <a
+                      <Link
                         className="download-btn"
+                        to={process.env.REACT_APP_BTN_LEER_DOCUMENTACION}
                         style={{
                           fontSize: width > breakpoint && width < breakpointT
                             ? "24px"
@@ -97,10 +99,11 @@ export const SectionDevCreate = () => {
                           padding: width > breakpoint && width < breakpointT
                             ? "10px 20px 10px 20px"
                             : "",
+                            textDecoration: 'none'
                         }}
                       >
                         Leer Documentación
-                      </a>
+                      </Link>
                     </div>}
                   </div>
                 </LightSpeed>
@@ -161,15 +164,17 @@ export const SectionDevCreate = () => {
                 </div>
                 <div className="row">
                   <div className="col-lg-12 text-center mt-5">
-                    <a
+                    <Link
                       className="download-btn"
+                      to={process.env.REACT_APP_BTN_LEER_DOCUMENTACION}
                       style={{
                         fontSize: "18px",
                         padding: "15px 20px 15px 20px",
+                        textDecoration: 'none'
                       }}
                     >
                       Leer Documentación
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="row">

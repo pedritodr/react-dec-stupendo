@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Col, Collapse, Container, Row } from "react-bootstrap";
+import {Link} from "react-router-dom";
 import { Fade, Slide } from "react-reveal";
 import arrowRight from "../../assets/img/section-plans/arrow-left-footer-plans.png";
 import { FaAngleDown, FaAngleUp } from "react-icons/fa";
@@ -42,6 +42,7 @@ export const SectionPlansBody = () => {
       borderRadius: "50px",
       border: "0px",
       padding: "10px 30px 10px 30px",
+      textDecoration: 'none'
     },
     buttonBlue: {
       fontFamily: "MYRIADPRO,  sans-serif",
@@ -51,6 +52,7 @@ export const SectionPlansBody = () => {
       borderRadius: "50px",
       border: "0px",
       padding: "10px 30px 10px 30px",
+      textDecoration: 'none'
     },
     textTitleCard: {
       color: "#3B457A",
@@ -195,6 +197,7 @@ export const SectionPlansBody = () => {
       border: "0px",
       padding: "15px 30px 15px 30px",
       marginTop: "20px",
+      textDecoration: 'none'
     },
   };
   return (
@@ -233,13 +236,13 @@ export const SectionPlansBody = () => {
                           GRATIS
                         </p>
 
-                        <a
-                          href="#"
+                        <Link
+                          to={process.env.REACT_APP_BTN_COMENZAR}
                           className="btn btn-primary mt-auto"
                           style={styles.buttonGreen}
                         >
                           Comenzar
-                        </a>
+                        </Link>
                       </div>
                       : ""}
                   </div>
@@ -262,13 +265,13 @@ export const SectionPlansBody = () => {
                         ...styles.borderColorCardFooterGreen,
                       }}
                     >
-                      <a
-                        href="#"
+                      <Link
+                        to={process.env.REACT_APP_BTN_COMENZAR}
                         className="btn btn-primary mt-auto"
                         style={styles.buttonGreen}
                       >
                         Comenzar
-                      </a>
+                      </Link>
                     </div>
                   </div>}
 
@@ -343,8 +346,8 @@ export const SectionPlansBody = () => {
                         >
                           $540 al año
                         </p>
-                        <a
-                          href="#"
+                        <Link
+                          to={process.env.REACT_APP_BTN_COMPRAR_AHORA}
                           className="btn btn-primary"
                           style={{
                             ...styles.buttonBlue,
@@ -352,7 +355,7 @@ export const SectionPlansBody = () => {
                           }}
                         >
                           Comprar Ahora
-                        </a>
+                        </Link>
                       </div>
                       : ""}
                   </div>
@@ -379,13 +382,13 @@ export const SectionPlansBody = () => {
                         ...styles.borderColorCardFooterBlue,
                       }}
                     >
-                      <a
-                        href="#"
+                      <Link
+                        to={process.env.REACT_APP_BTN_COMPRAR_AHORA}
                         className="btn btn-primary"
                         style={styles.buttonBlue}
                       >
                         Comprar Ahora
-                      </a>
+                      </Link>
                     </div>
                   </div>}
 
@@ -559,8 +562,8 @@ export const SectionPlansBody = () => {
                         >
                           $2340 al año
                         </p>
-                        <a
-                          href="#"
+                        <Link
+                         to={process.env.REACT_APP_BTN_COMPRAR_AHORA}
                           className="btn btn-primary"
                           style={{
                             ...styles.buttonBlue,
@@ -568,7 +571,7 @@ export const SectionPlansBody = () => {
                           }}
                         >
                           Comprar Ahora
-                        </a>
+                        </Link>
                       </div>
                       : ""}
                   </div>
@@ -595,13 +598,13 @@ export const SectionPlansBody = () => {
                         ...styles.borderColorCardFooterBlue,
                       }}
                     >
-                      <a
-                        href="#"
+                      <Link
+                         to={process.env.REACT_APP_BTN_COMPRAR_AHORA}
                         className="btn btn-primary"
                         style={styles.buttonBlue}
                       >
                         Comprar Ahora
-                      </a>
+                      </Link>
                     </div>
                   </div>}
 
@@ -773,8 +776,8 @@ export const SectionPlansBody = () => {
                         >
                           $3540 al año
                         </p>
-                        <a
-                          href="#"
+                        <Link
+                         to={process.env.REACT_APP_BTN_COMPRAR_AHORA}
                           className="btn btn-primary"
                           style={{
                             ...styles.buttonBlue,
@@ -782,7 +785,7 @@ export const SectionPlansBody = () => {
                           }}
                         >
                           Comprar Ahora
-                        </a>
+                        </Link>
                       </div>
                       : ""}
                   </div>
@@ -809,13 +812,13 @@ export const SectionPlansBody = () => {
                         ...styles.borderColorCardFooterBlue,
                       }}
                     >
-                      <a
-                        href="#"
+                      <Link
+                        to={process.env.REACT_APP_BTN_COMPRAR_AHORA}
                         className="btn btn-primary"
                         style={styles.buttonBlue}
                       >
                         Comprar Ahora
-                      </a>
+                      </Link>
                     </div>
                   </div>}
 
@@ -993,8 +996,8 @@ export const SectionPlansBody = () => {
                         >
                           ¿Buscas un Plan<br /> personalizado?
                         </p>
-                        <a
-                          href="#"
+                        <Link
+                           to={process.env.REACT_APP_BTN_CONTACTANOS}
                           className="btn btn-primary"
                           style={{
                             ...styles.buttonBlue,
@@ -1002,7 +1005,7 @@ export const SectionPlansBody = () => {
                           }}
                         >
                           Contáctanos
-                        </a>
+                        </Link>
                       </div>
                       : ""}
                   </div>
@@ -1051,13 +1054,13 @@ export const SectionPlansBody = () => {
                       ...styles.borderColorCardFooterBlue,
                     }}
                   >
-                    <a
-                      href="#"
+                    <Link
+                       to={process.env.REACT_APP_BTN_CONTACTANOS}
                       className="btn btn-primary"
                       style={styles.buttonGreen}
                     >
                       Contáctanos
-                    </a>
+                    </Link>
                   </div>}
 
                   <div
@@ -1188,12 +1191,13 @@ export const SectionPlansBody = () => {
                     ? <br />
                     : ""} con tu prueba gratis.
                 </p>
-                {width < breakpoint ? "" : <a
-                  href="#"
+                {width < breakpoint ? "" : <Link
+                   to={process.env.REACT_APP_BTN_COMIENZA_GRATIS}
+                 href="#"
                   style={styles.buttonFooter}
                 >
                   Comenzar Gratis
-                </a>}
+                </Link>}
               </div>
             </div>
             {width < breakpoint ? "" : <div className="col-lg-7">
@@ -1280,12 +1284,13 @@ export const SectionPlansBody = () => {
                 >
                   ¿Aún no sabes cuál elegir?, comienza con tu prueba gratis.
                 </p>
-                {width > breakpoint && width < breakpointT ? "" : <a
-                  href="#"
+                {width > breakpoint && width < breakpointT ? "" : <Link
+
+                to={process.env.REACT_APP_BTN_COMIENZA_GRATIS}
                   style={styles.buttonFooter}
                 >
                   Comenzar Gratis
-                </a>}
+                </Link>}
               </div>
             </div>
             <div
@@ -1303,8 +1308,8 @@ export const SectionPlansBody = () => {
                 ? <div className="col-lg-12 col-md-12 col-sm-12">
                   <div className="row">
                     <div className="col-lg-6 col-md-6 col-sm-6">
-                      <a
-                        href="#"
+                      <Link
+                         to={process.env.REACT_APP_BTN_COMIENZA_GRATIS}
                         style={{
                           ...styles.buttonFooter,
                           fontSize: "15px",
@@ -1312,7 +1317,7 @@ export const SectionPlansBody = () => {
                         }}
                       >
                         Comenzar Gratis
-                      </a>
+                      </Link>
                     </div>
                     <div className="col-lg-6 col-md-6 col-sm-6">
                       <img

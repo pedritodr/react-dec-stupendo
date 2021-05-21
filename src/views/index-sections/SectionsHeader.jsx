@@ -1,8 +1,5 @@
 import React from "react";
-import {
-  BrowserRouter as Router,
-  Link,
-} from "react-router-dom";
+import { Link} from "react-router-dom";
 import leftHomeImg from "../../assets/img/img-left-home.png";
 import "animate.css/animate.css";
 import useViewport from "../../components/GridResponsive/ViewResponsive";
@@ -33,6 +30,7 @@ export const SectionsHeader = () => {
       color: "#fff",
       background: "#29B383",
       cursor: "pointer",
+      textDecoration: 'none'
     },
   };
   return (
@@ -55,7 +53,7 @@ export const SectionsHeader = () => {
                     : "6rem"),
                 }}
               >
-                <a style={styles.buttonHeader}>Comienza Gratis</a>
+              <Link to={process.env.REACT_APP_BTN_COMIENZA_GRATIS} style={styles.buttonHeader}>Comienza Gratis</Link>
               </div>
             </div>
           </div>

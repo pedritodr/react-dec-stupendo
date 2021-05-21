@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Container, Image, Row } from "react-bootstrap";
+import { Link} from "react-router-dom";
 import backgraundFooter from "../../assets/img/section-portafolio/Recurso-footer.png";
 import backgroundFooterMobil from "../../assets/img/section-portafolio/background-footer-mobil.png";
 import imageCenter from "../../assets/img/section-portafolio/Recurso-center.png";
@@ -71,6 +71,7 @@ export const SectionPortafolio = () => {
       background: "#29B383",
       cursor: "pointer",
       marginTop: width < breakpoint ? "0px" : "10px",
+      textDecoration: 'none'
     },
     backgroundInReady: {
       backgroundImage: width < breakpoint ? `url(${backgroundFooterMobil})`
@@ -164,7 +165,7 @@ export const SectionPortafolio = () => {
             : (width > breakpoint && width < breakpointT ? "5rem" : "10rem"),
           }}
         >
-          <a style={styles.buttonStarted}>Comienza Gratis</a>
+          <Link to={process.env.REACT_APP_BTN_COMIENZA_GRATIS} style={styles.buttonStarted}>Comienza Gratis</Link>
         </div>
       </div>
       <div className="row">
