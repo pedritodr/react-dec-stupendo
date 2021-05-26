@@ -1,11 +1,11 @@
 @font-face {
     font-family: MYRIADPRO;
-    src: url(./static/media/MYRIADPRO-BOLD.24292333.OTF), url(./static/media/MyriadPro-Light.1d169f60.otf), url(./static/media/MYRIADPRO-REGULAR.6c518fcd.OTF), url(./static/media/MYRIADPRO-SEMIBOLD.662f3601.OTF);
+    src: url(https://pedritodr.github.io/react-dec-stupendo/static/media/MYRIADPRO-BOLD.24292333.OTF), url(https://pedritodr.github.io/react-dec-stupendo//static/media/MyriadPro-Light.1d169f60.otf), url(https://pedritodr.github.io/react-dec-stupendo//static/media/MYRIADPRO-REGULAR.6c518fcd.OTF), url(https://pedritodr.github.io/react-dec-stupendo//static/media/MYRIADPRO-SEMIBOLD.662f3601.OTF);
 }
 
 @font-face {
     font-family: MYRIADPROREGULAR;
-    src: url(./static/media/MYRIADPRO-REGULAR.6c518fcd.OTF);
+    src: url(https://pedritodr.github.io/react-dec-stupendo/static/media/MYRIADPRO-REGULAR.6c518fcd.OTF);
 }
 
 body {
